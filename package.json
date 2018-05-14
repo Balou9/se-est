@@ -1,0 +1,27 @@
+{
+  "name": "se-est",
+  "version": "0.0.0",
+  "description": "Standard error of the estimate",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/se-est.git"
+  },
+  "keywords": [
+    "standard",
+    "error",
+    "estimate"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/se-est/issues"
+  },
+  "homepage": "https://github.com/Balou9/se-est#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}

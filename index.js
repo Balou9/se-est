@@ -5,9 +5,9 @@ function seEst (arr, brr) {
   }
 
   var err = 0
-  for (var i = 0; i < result.length ; i++){
-    err += result[i]
-  }
+  result.map(function collapse (each) {
+      err += each
+  })
 
   return Math.sqrt(err / arr.length)
 }
